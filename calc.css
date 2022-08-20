@@ -28,7 +28,8 @@ html, body{
   .calculator{
     height: 50%;
     width: 40%;
-    background-color: grey;
+    max-width: 350px;
+    background-color: #ECECEC;
     border: solid;
     border-width: 1px;
     border-color: black;
@@ -40,8 +41,8 @@ html, body{
     height: 15%;
     width: 90%;
     border-radius: 5px;
-    font-size: 40px;
-    border: 1px solid #ccc;
+    font-size: 200%;
+    border: 1px solid black;
     white-space: nowrap;
     overflow: hidden; 
     display : flex; 
@@ -53,7 +54,7 @@ html, body{
   .buttons{
     width: 90%; 
     height: 70%;
-    background-color: lightgray;
+    background-color: #E0E0E0;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -70,22 +71,36 @@ html, body{
   }
   
   .btn{
-    background-color: green;
+    background-color: #F1FFEB;
     height: 80%;
     width: 20%;
     text-align: center;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 200%;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
   }
 
+ .btn:hover{
+    background-color: #c5ff9b;
+ }
+
   .btn2{
-    background-color: red;
+    background-color: #FFEBF9;
     height: 80%;
     width: 44%;
     text-align: center;
     border-radius: 5px;
-    font-size: 30px;
+    font-size: 200%;
+    border-color: black;
+    border: solid;
+    border-width: 1px;
   }
+
+  .btn2:hover{
+    background-color: #ff89dc;
+ }
 
 
   
